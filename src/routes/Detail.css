@@ -1,0 +1,54 @@
+.detail_container{
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffffa6;
+  margin: 0 auto;
+  max-width: 50%;
+  font-weight: 300;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+.detail_container img{
+  position: relative;
+  top : -50px;
+  max-width: 150px;
+  width:100%;
+  margin-right: 30px;
+  box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),
+  0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 36px -8px rgba(0,0,0,0.025);
+}
+
+.detail_container .detail_movie_title,
+.detail_container .detail_movie_year{
+  margin : 0;
+  font-weight: 600;
+}
+
+.detail_container .detail_movie_genres{
+  display: flex;
+  list-style: none;
+  padding:0;
+  margin: 0;
+  margin : 5px 0px;
+}
+
+.detail_movie_trailer {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.detail_trailer {
+  position: absolute;
+  top :0;
+  left:0;
+}
+
+.detail_movie_genres li{
+  margin-right: 10px;
+  font-size: 14px;
+}
